@@ -1,0 +1,26 @@
+Interactive Quiz Game - Simple Explanation
+
+This is a basic quiz game made using HTML, CSS, and JavaScript.
+
+Features:
+- The game asks the user to enter their name before starting.
+- There are 10 questions. Each question has 4 options.
+- When you choose an answer, it shows if it is correct (green) or wrong (red).
+- You get points for correct answers.
+- A progress bar shows how many questions are completed.
+- After finishing all questions, your total score is shown.
+- You can restart the quiz to try again.
+- You can switch between light and dark mode.
+- There are sound effects for correct and wrong answers.
+
+How to Use:
+1. Open the index.html file in your browser.
+2. Enter your name and click the "Start Quiz" button.
+3. Answer all the questions.
+4. View your score and try again if you want.
+
+Files in the Project:
+- index.html : The structure of the quiz.
+- styles.css : The design and colors.
+- script.js  : The working and logic of the quiz.
+- sounds/    : Folder that contains sound files.
