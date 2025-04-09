@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Quiz Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <button id="toggle-theme" class="btn theme-toggle">🌙 Dark Mode</button>
+
+  <div id="welcome-screen" class="welcome-screen">
+    <h1>Welcome to the Quiz Game 🎉</h1>
+    <p>Please enter your name to begin:</p>
+    <input type="text" id="username" placeholder="Enter your name" required>
+    <button class="btn start-btn" onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <div class="quiz-container" id="quiz" style="display: none;">
+  
+    <div class="progress-container" id="progress-container">
+      <div class="progress-bar" id="progress"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
